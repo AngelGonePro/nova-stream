@@ -29,3 +29,7 @@ rm /tmp/nova-server.zip
 cp ~/nova-server/.env.example ~/nova-server/.env
 nano ~/nova-server/.env
 ```
+
+```
+docker compose up -d --build
+```

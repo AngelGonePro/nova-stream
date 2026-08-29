@@ -1,11 +1,15 @@
-# nova-stream
+# NOVA Stream
 NOVA Stream is a Self Hosted Streaming Service for the NOVA Codec.
 
 https://raw.githubusercontent.com/AngelGonePro/nova-stream/refs/heads/main/nova-server.zip
 
+Updating from github:
+
 ```
 cd ~/nova-server && curl -fsSL https://raw.githubusercontent.com/AngelGonePro/nova-stream/refs/heads/main/nova-server.zip -o /tmp/nova-update.zip && rm -rf /tmp/nova-update-extract && mkdir -p /tmp/nova-update-extract && unzip -oq /tmp/nova-update.zip -d /tmp/nova-update-extract && (command -v rsync >/dev/null || apt-get install -y -qq rsync) && rsync -a --delete --exclude='.env' --exclude='node_modules' --exclude='data' /tmp/nova-update-extract/nova-server/ ./ && docker compose up -d --build && rm -rf /tmp/nova-update.zip /tmp/nova-update-extract && echo "Update complete"
 ```
+
+Installing:
 
 ```
 mkdir nova-server && \

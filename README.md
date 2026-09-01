@@ -1,5 +1,5 @@
 # NOVA Stream
-NOVA Stream is a Self Hosted Streaming Service for the NOVA Codec.
+NOVA Stream is a Self Hosted Streaming Service for the NOVA Codec. The Codec: https://github.com/AngelGonePro/nova-next-generation-optimized-versatile-audio-codec
 
 https://raw.githubusercontent.com/AngelGonePro/nova-stream/refs/heads/main/nova-server.zip
 

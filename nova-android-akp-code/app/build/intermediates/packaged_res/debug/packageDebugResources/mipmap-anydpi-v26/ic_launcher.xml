@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Functional placeholder only — a flat background colour plus a simple
+     vector glyph, so the project builds without a missing-resource error.
+     Swap for real artwork (Android Studio's Image Asset Studio is the easy
+     path) before this goes anywhere near a real release. -->
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@color/nova_bg" />
+    <foreground android:drawable="@drawable/ic_launcher_foreground" />
+</adaptive-icon>
